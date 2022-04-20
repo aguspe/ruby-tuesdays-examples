@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+
+# Indicates the source of our dependencies
+# You can also add url from github or wherever the code of the depedency is store in
+source 'https://rubygems.org'
+
+gem 'rspec'
+gem 'selenium-webdriver'
+gem 'watir'
+# install and downloads all the webdriver for us
+gem 'webdrivers'
